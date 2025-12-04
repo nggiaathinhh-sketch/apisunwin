@@ -1,0 +1,17 @@
+{
+  "name": "sunwin-ai-chip",
+  "version": "1.0.0",
+  "description": "Full AI Chip Du Doan Tai Xiu Sunwin voi Transformer va Adaptive Markov",
+  "main": "apisunwin.js",
+  "type": "module",
+  "scripts": {
+    "start": "node apisunwin.js",
+    "dev": "node --watch apisunwin.js"
+  },
+  "dependencies": {
+    "@fastify/cors": "^8.4.1",
+    "fastify": "^4.24.3",
+    "node-fetch": "^3.3.2",
+    "ws": "^8.14.2"
+  }
+}
